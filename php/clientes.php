@@ -21,14 +21,14 @@
 		<table class="table table-striped b-t b-light">
 			<thead>
 				<tr>
-					<th>Categoria</th>
-					<th>Nombre/Empresa</th>
-					<th>Contacto</th>
+					<th>Nombre</th>
+					<th>Direccion</th>
+					<th>Correo</th>
 					<th width="200">Telefono</th>
-					<th width="120"></th>
+					<th width="140"></th>
 				</tr>
 			</thead>
-			<tbody>
+			<tbody border=1>
 
 				<tr>
 					<td>columna 1</td>
@@ -36,8 +36,10 @@
 					<td>columna 3</td>
 					<td>columna 4 </td>
 					<td>
-						<a href="admin.php?m=clientesEditar&id=" class="btn btn-sm btn-default"> <i class="fa fa-pencil"></i> </a> &nbsp;&nbsp;&nbsp;
+						<a href="admin.php?m=clientesEditar&id=" class="btn btn-sm btn-default"> <i class="fa fa-pencil"></i> </a>
+						<a href="admin.php?m=clientesVer" class="btn btn-sm btn-default"> <i class="fa fa-user"></i> </a>
 						<a href="admin.php?m=clientes&del=" class="btn btn-sm btn-danger"> <i class="fa fa-times"></i> </a>
+
 					</td>
 				</tr>
 				<tr>
@@ -46,7 +48,8 @@
 					<td>columna 3</td>
 					<td>columna 4 </td>
 					<td>
-						<a href="admin.php?m=clientesEditar&id=" class="btn btn-sm btn-default"> <i class="fa fa-pencil"></i> </a> &nbsp;&nbsp;&nbsp;
+						<a href="admin.php?m=clientesEditar&id=" class="btn btn-sm btn-default"> <i class="fa fa-pencil"></i> </a>
+						<a href="admin.php?m=clientesVer" class="btn btn-sm btn-default"> <i class="fa fa-user"></i> </a>
 						<a href="admin.php?m=clientes&del=" class="btn btn-sm btn-danger"> <i class="fa fa-times"></i> </a>
 					</td>
 				</tr>
